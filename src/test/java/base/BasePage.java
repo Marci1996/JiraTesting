@@ -53,7 +53,7 @@ public class BasePage {
 
 
     public void basicLoginWithCorrectCredentials() {
-        setUSERNAME("Automation31");
+        setUSERNAME("automation31");
         setPASSWORD("CCAutoTest19.");
         clickLoginButton();
         waitForProfilePictureIsVisible();
