@@ -63,5 +63,4 @@ public class BasePage {
         webdriver.quit();
     }
 
-
 }
