@@ -12,6 +12,8 @@ import java.time.Duration;
 
 
 public class BasePage {
+
+    public final String basicUrl = "https://jira-auto.codecool.metastage.net/";
     @FindBy(id = "login-form-username")
     protected WebElement usernameField;
 

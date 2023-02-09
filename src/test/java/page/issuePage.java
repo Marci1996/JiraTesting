@@ -42,4 +42,10 @@ public class issuePage extends BasePage {
         waitForIssueErrorMessage();
     }
 
+    public void browseSpecialProjectIssue(String projectURL) {
+        basicLoginWithCorrectCredentials();
+        webdriver.get(projectURL);
+        waitForIssueKeyVal();
+    }
+
 }
